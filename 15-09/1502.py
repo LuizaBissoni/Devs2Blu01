@@ -12,4 +12,6 @@ dic['nome'] = nome
 dic['sobrenome'] = sobrenome
 dic['idade'] = idade
 
-print(dic)
+#print(dic)
+
+print(dic[nome])

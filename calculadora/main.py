@@ -8,16 +8,16 @@ from controller import subtracao
 from controller import multiplicacao
 from controller import divisao
 
-poli = "=" * 10
+poli = "~" * 10
 
 opcao=1
 
 while opcao:
     print (f'\n {poli} Qual operação jovem? :) {poli} ')
-    print("1. Somar")
-    print("2. Subtrair")
-    print("3. Multiplicação")
-    print("4. Divisão ")
+    print("1 Somar")
+    print("2 Subtrair")
+    print("3 Multiplicação")
+    print("4 Divisão ")
 
     opcao = int(input("Opção: "))
 

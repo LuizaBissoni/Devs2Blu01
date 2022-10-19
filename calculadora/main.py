@@ -3,10 +3,7 @@
 # deve ser utilizado o conceito de interpolação para criar um cabeçalho de um menu, dentro deste menu deve conter a 
 # possibilidade de fazer a impressão dos dados inseridos pelo usuário, permitindo assim o usuário escolher uma das 4 operações 
 # matemáticas importadas, consequentemente imprimindo assim o resultado desejado dos dados inseridos.
-from controller import soma
-from controller import subtracao
-from controller import multiplicacao
-from controller import divisao
+from controller import soma, subtracao, multiplicacao, divisao
 
 poli = "~" * 10
 

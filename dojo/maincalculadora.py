@@ -5,8 +5,8 @@ def menu():
 
     cond = 'sim'
     while cond == 'sim':
-        n1 = int(input('numero'))
-        n2 = int(input('numero'))
+        n1 = int(input('numero '))
+        n2 = int(input('numero '))
 
         Soma = soma(n1, n2)
         Subtracao = sub(n1, n2)

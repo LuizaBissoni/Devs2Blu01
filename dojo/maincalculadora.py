@@ -1,4 +1,4 @@
-from calculadora import soma, multi, divi, sub
+from dojo.calculadora import soma, multi, divi, sub
 
 def menu():
     print('*'*25, 'menu', '*'*25)

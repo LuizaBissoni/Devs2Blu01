@@ -10,7 +10,7 @@ class Conta:
         self.__titular = titular
     def get_titular(self):
         return self.__titular
-    
+
     def set_numero(self, numero):
         self.__numero = numero
     def get_numero(self):

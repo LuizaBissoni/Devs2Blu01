@@ -1,0 +1,1 @@
+#marca, modelo cor, categoria

@@ -35,4 +35,4 @@ class Conta:
         self.__limite= limite
 
     def __str__(self):
-        return f'Titular: {self.titular} Conta: {self.numero} Saldo: {self.saldo} Limite: {self.limite}'    
+        return f'{self.titular} {self.numero} {self.saldo} {self.limite}'    

@@ -15,5 +15,5 @@ def menu():
 
     validacao(camarao)
     impressao(camarao)
-
+    
 menu()

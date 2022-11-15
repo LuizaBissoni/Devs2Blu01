@@ -1,0 +1,27 @@
+-Crie um documento com namespace conta e nome da classe Conta, conforme orientação de boas práticas.
+- Crie um método construtor com a variável de referência do nosso Objeto,  insira  dois atributos no construtor, número e tipo, crie um print  descritivo (Passando pelo construtor da classe Conta), dentro da estrutura de indentação do nosso construtor.
+- Chame o método __str__ e retorne os atributos número e tipo.  Descritivamente coloque informativos para cada atributo citado.
+-Crie um documento com namespace pessoaFisica e nome da classe PessoaFisica, conforme orientação de boas práticas, e importe a classe Conta e faça herança da mesma.
+-Na classe PessoaFisica crie um atributo privado chamado __segundo_titular recebendo uma string vazia.
+-Crie um método construtor com a variável de referência do nosso Objeto,  insira  dois atributos no construtor, titular, cpf e saldo_inicial,  Chame o construtor da nossa classe base e atribua dados fixos nos atributos do construtor super().__init__, crie um print  descritivo (Passando pelo construtor da classe PessoaFisica), dentro da estrutura de indentação do nosso construtor.
+-Crie getter e setter utilizando anotacao, apenas para o atributo __segundo_titular
+-Chame o método __str__ e retorne o __str__ da classe base, e os atributos titular, cpf,  saldo_inicial e segundo_titular  e Descritivamente coloque informativos para cada atributo citado.
+-Crie um documento com namespace pessoaJuridica e nome da classe PessoaJuridica, conforme orientação de boas práticas, e importe a classe Conta e faça herança da mesma.
+-Na classe PessoaJuridica crie um atributo privado chamado __segundo_titular recebendo uma string vazia.
+-Crie um método construtor com a variável de referência do nosso Objeto,  insira  dois atributos no construtor, titular, cnpj e saldo_inicial, chame o construtor da nossa classe base e atribua dados fixos nos atributos do construtor super().__init__, crie um print  descritivo (Passando pelo construtor da classe PessoaFisica), dentro da estrutura de indentação do nosso construtor. 
+Crie getter e setter utilizando anotações, apenas para o atributo __segundo_titular. 
+-Chame o método __str__ e retorne o __str__ da classe base e os atributos titular, cnpj,  saldo_inicial e segundo_titular e Descritivamente coloque informativos para cada atributo citado.
+- Crie um documento com namespace main e realize a importação da classe PessoaFisica e importe também a classe PessoaJuridica.
+- Crie uma variável de referência ao objeto de PessoaFisica e insira valores nos atributos do construtor
+- Faça um print utilizando interpolação e faça um cabeçalho Menu PessoaFisica Inicial
+- Faça um print deste objeto,
+- logo em seguida insira valores utilizando o set do segundo_titular  e atribua um dado ao mesmo
+- Faça um print utilizando interpolação e faça um cabeçalho Menu PessoaFisica alterações.
+- Realize a impressão novamente deste objeto para visualizar as alterações após inserir segundo titular
+- Crie uma variável de referência ao objeto de PessoaJuridica e insira valores nos atributos do construtor.
+- Faça um print utilizando interpolação e faça um cabeçalho Menu  PessoaJuridica Inicial
+- Faça um print deste objeto,
+- Logo em seguida insira valores utilizando o set do segundo_titular  e atribua um dado ao mesmo
+- Faça um print utilizando interpolação e faça um cabeçalho Menu  PessoaJuridica alterações.
+- Realize a impressão novamente deste objeto para visualizar as alterações após inserir segundo titular
+

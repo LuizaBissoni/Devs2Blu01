@@ -5,5 +5,5 @@ class Conta:
         print('passando pelo construtor da classe mãe')
 
     def __str__(self):
-        return f'{self.numero} {self.tipo}'
+        return f'Conta: {self.numero} Tipo de Conta: {self.tipo}'
 

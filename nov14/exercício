@@ -24,4 +24,23 @@ Crie getter e setter utilizando anotações, apenas para o atributo __segundo_ti
 - Logo em seguida insira valores utilizando o set do segundo_titular  e atribua um dado ao mesmo
 - Faça um print utilizando interpolação e faça um cabeçalho Menu  PessoaJuridica alterações.
 - Realize a impressão novamente deste objeto para visualizar as alterações após inserir segundo titular
+@property
+    def titular(self):
+        return self.__titular
+    @titular.setter
+    def titular(self, titular):
+        self.__titular = titular
 
+    @property
+    def CNPJ(self):
+        return self.__CNPJ
+    @CNPJ.setter
+    def CNPJ(self, CNPJ):
+        self.__CNPJ = CNPJ
+
+    @property
+    def saldoInicial(self):
+        return self.__saldoInicial
+    @saldoInicial.setter
+    def saldoInicial(self, saldoInicial):
+        self.__saldoInicial = saldoInicial

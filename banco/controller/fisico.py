@@ -17,6 +17,7 @@ def readPF():
         pessoaFisica = PessoaFisica()
         pessoaFisica.agencia = conta__objeto[0]
         pessoaFisica.numeroAgencia = conta__objeto[1]
+        
         pessoaFisica.titular = conta__objeto[2]
         pessoaFisica.CPF = conta__objeto[3]
         pessoaFisica.saldoInicial = conta__objeto[4]

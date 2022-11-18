@@ -17,6 +17,7 @@ def readPJ():
         pessoaJuridica = PessoaJuridica()
         pessoaJuridica.agencia = conta__objeto[0]
         pessoaJuridica.numeroAgencia = conta__objeto[1]
+        
         pessoaJuridica.titular = conta__objeto[2]
         pessoaJuridica.CNPJ = conta__objeto[3]
         pessoaJuridica.saldoInicial = conta__objeto[4]

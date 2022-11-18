@@ -14,7 +14,7 @@ def read():
         conta__objeto = conta.split(';')
         print(conta__objeto)
 
-        conta = Conta
+        conta = Conta()
         conta.titular = conta__objeto[0]
         conta.numero = conta__objeto[1]
         conta.saldo = conta__objeto[2]

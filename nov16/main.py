@@ -8,8 +8,8 @@ abacate.saldo = 3000.0
 
 create(abacate)
 
-lista_abacate = read()
-print(lista_abacate)
+listaAbacates = read()
+print(listaAbacates)
 
-for c in lista_abacate:
+for c in listaAbacates:
     print(c)

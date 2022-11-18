@@ -25,4 +25,4 @@ class Conta:
         self.__saldo = saldo
 
     def __str__(self):
-        return f'{self.titular} {self.numero} {self.saldo}'
+        return f'{self.titular};{self.numero};{self.saldo}'

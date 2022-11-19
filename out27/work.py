@@ -1,4 +1,4 @@
-from controllerfuncionario import validacao, impressao
+from controllerFuncionario import validacao, impressao
 from datetime import date
 
 

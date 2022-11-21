@@ -2,8 +2,9 @@ from model import Conta
 from controller import create, read, update, delete
 
 abacate = Conta()
-abacate.titular = 'luiza'
-abacate.numero = '123'
+
+abacate.titular = 'sss'
+abacate.numero = 123
 abacate.saldo = 3000.0
 
 #create(abacate)

@@ -7,7 +7,7 @@ class Conta:
     def titular(self):
         return self.__titular
     @titular.setter
-    def titular(self,titular):
+    def titular(self, titular):
         self.__titular = titular
 
     @property
